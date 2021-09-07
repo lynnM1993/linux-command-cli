@@ -1,0 +1,33 @@
+{
+  "name": "linux-command-cli",
+  "version": "0.0.1",
+  "description": "一些工具的cli",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lynnm1993",
+  "license": "ISC",
+  "bin": {
+    "tools": "bin/tools.js",
+    "lx": "bin/linux.js",
+    "ll": "bin/ll.js",
+    "ls": "bin/ls.js",
+    "cat": "bin/cat.js",
+    "zip": "bin/zip.mjs",
+    "unzip": "bin/unzip.mjs",
+    "rm": "bin/rm.mjs",
+    "pwd": "bin/pwd.mjs"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.5",
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "fs-extra": "^10.0.0"
+  },
+  "private": false,
+  "devDependencies": {},
+  "keywords": [
+    "nodejs、commond、linux"
+  ]
+}
